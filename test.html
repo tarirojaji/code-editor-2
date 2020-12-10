@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+
+    <style>
+        .images {
+            
+            position: relative;
+            display: block;
+            margin: auto;
+
+        }
+        .images .img-2 {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+        .images:hover .img-2 {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="images">
+        <img src="img/img1.jpeg" alt="1st Img">
+   
+        <img src="img/img2.jpeg" class="img-2" alt="2nd img">
+
+    </div>
+<hr>
+</body>
+</html>
+
+<!-- style="display: block; margin-left: auto; margin-right: auto; -->

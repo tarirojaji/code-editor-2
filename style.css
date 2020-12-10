@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: royalblue;
+    background: url('/img/ice-1.jpeg');
+    background-size: 100vw;
+    
+}
+
+.editor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    padding: .9em 0;
+    background: rgba( 255, 255, 255, 0.00 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+}
+
+.left {
+    flex: 10%;
+    padding: 1em;
+
+    background: rgba(255, 255, 255, 0.15);
+    /* backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px ); */
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.editor-btn {
+    /* border: 2px solid #ccc; */
+    width: 70%;
+    margin-top: 1em;
+    cursor: pointer;
+    font-size: 1.9rem;
+    border: 0;
+    color: wheat;
+    background-color: transparent;
+}
+
+.editor-btn:hover {
+    color: turquoise;
+}
+
+.right {
+    flex: 90%;
+    /* flex-direction: column; */
+}
+
+.editor-body {
+    position: relative;
+    height: 70%;
+}
+
+.coder {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(255, 255, 255, 0.15);
+    /* backdrop-filter: blur( 9.0px ); */
+    /* -webkit-backdrop-filter: blur( 9.0px ); */
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.footer {
+    height: 30%;
+    overflow: hidden;
+}
+
+.console {
+    height: 100%;
+    width: 100;
+    overflow: auto;
+
+    background: rgba(255, 255, 255, 0.15);
+    /* backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px ); */
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
